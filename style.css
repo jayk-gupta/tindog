@@ -25,7 +25,7 @@ h1{
     color: white;
 }
 .container-fluid{
-padding: 2% 15%;
+padding: 3% 15% 7%;
 }
 
 ul li{
@@ -34,14 +34,19 @@ ul li{
     color: white;
     font-size: 1.2rem;
 }
-#iphn{
+.iphn{
     transform: rotate(25deg);
     height:600px;
-    margin-left: 70px;
-    margin-top: 20px;
+    /* margin-left: 70px;
+    margin-top: 20px; */
     position: absolute;
 }
 /* Features */
+#features{
+    padding: 8% 5%;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+}
 .r{
     /* border: 2px solid black; */
     margin: 10px;
@@ -50,12 +55,12 @@ ul li{
 .col-lg-4{
     text-align: center;
 }
-.fa-solid{
+.fa-circle-check,.fa-bullseye,.fa-heart{
      font-size: 4rem;
     color: #ef8172;
      margin-bottom: 2rem;
 }
-.fa-solid:hover{
+.fa-circle-check:hover,.fa-bullseye:hover,.fa-heart:hover{
     color: #ff4c68;
 }
 
@@ -63,13 +68,7 @@ ul li{
     padding: 0 20%;
     color: gray;
 }
-#features{
-    padding: 8% 5%;
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    z-index: 1;
- 
-}
+
 
 #testimonials{
 /* margin: 7% 15%; */
@@ -111,3 +110,34 @@ padding: 7% 15%;
 padding: 3%;
 /* background-color: coral; */
 }
+@media (max-width:1028){
+.iphn{
+     position: static;
+     transform: rotate(0deg);
+     
+}
+}
+/* footer */
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 3% 16%;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    margin-top: 6%;
+}
+#footer{
+/* border:  2px solid red; */
+text-align: center;
+margin: 10% 5%;
+font-size: 1rem;
+}
+.fa-twitter, .fa-facebook-f,.fa-instagram,.fa-envelope{ 
+    margin: 4px;
+    
+}
+
