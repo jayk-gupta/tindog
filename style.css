@@ -84,8 +84,6 @@ button{
 }
 
 #testimonials{
-/* margin: 7% 15%; */
-/* padding: 7% 15%; */
 text-align: center;
 background-color: #ef8172;
 color: white;
@@ -130,22 +128,25 @@ padding: 3%;
     background-color: #ff4c68;
     color: white;
     text-align: center;
-    padding: 3% 16%;
+    padding: 7% 15%;
 }
 h3{
     font-family: 'Montserrat';
     font-weight: 900;
     font-size: 3.5rem;
+    line-height: 1.5;
     margin-top: 6%;
 }
 #footer{
 /* border:  2px solid red; */
 text-align: center;
-margin: 10% 5%;
+/* margin: 10% 5%;
+ */
+ padding: 7% 15%;
 font-size: 1rem;
 }
 .fa-twitter, .fa-facebook-f,.fa-instagram,.fa-envelope{ 
-    margin: 4px;
+    margin: 20px 10px;
     
 }
 
